@@ -1,0 +1,10 @@
+Thank you for using EasyInstaller.
+HOW TO USE:
+First declare the name of the file in the char name[100] = "";
+Then declare the name of the c source file in the char fname[50] = "";
+And lastly declare the name of the output file in char oname[50] = "";
+Compile then use!
+
+NOTE:
+The source file WILL be deleted after installation.
+THe "log" file is the output of the gcc and other commands ran by the installer.
