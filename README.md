@@ -10,4 +10,3 @@ NOTE: The output file has to be created with touch outputfilename
 4. Run the Compile.sh and its done!
 Its that easy!
 
-If you have any bugs feel free to make an issue ticket.
