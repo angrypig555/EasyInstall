@@ -1,7 +1,6 @@
 # Security Policy
 Please note that some versions will not be uploaded to github.
 
-Do not make a pull request with harmful code inside it.
 ## Supported Versions
 
 | Version | Supported               |
