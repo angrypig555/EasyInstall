@@ -1,5 +1,5 @@
 # Security Policy
-
+Please note that some versions will not be uploaded to github.
 ## Supported Versions
 
 | Version | Supported               |
