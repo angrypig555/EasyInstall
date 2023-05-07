@@ -1,4 +1,5 @@
 /*USAGE: Please read the manual file before continuing to configure it */
+/*THIS IS INDEV SOFTWARE. THIS VERSION IS UNFINISHED.*/
 #include <stdio.h>
 #include <stdlib.h>
 /*Name of the software*/
@@ -11,6 +12,7 @@ char cmd2[512];
 
 int main() {
 	/*Display program name*/
+	printf("Easyinstaller V0.0.4 INDEV")
 	printf("Installer for %s\n", name);
 	/* Asks for GCC*/
 	printf("THE INSTALLER REQUIRES GCC TO FUNCTION PROPERLY\n");
