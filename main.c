@@ -11,6 +11,7 @@ char cmd2[512];
 
 int main() {
 	/*Display program name*/
+	printf("Easyinstaller V0.0.4")
 	printf("Installer for %s\n", name);
 	/* Asks for GCC*/
 	printf("THE INSTALLER REQUIRES GCC TO FUNCTION PROPERLY\n");
@@ -22,11 +23,12 @@ int main() {
 		printf("This installer requires gcc to function properly\n");
 		return 0;
 	}
+	printf("Output log file: log.txt")
 	printf("Now installing: %s\n", fname);
-	sprintf(cmd1, "gcc %s -o %s &> /dev/null", fname, oname);
+	sprintf(cmd1, "gcc %s -o %s &> log.txt", fname, oname);
 	system(cmd1); /*Compiles program*/
 	printf("The program %s has installed succesfully! Launch the %s file to run the program\n", name, oname);
-	sprintf(cmd2, "rm %s &> /dev/null", fname);
+	sprintf(cmd2, "rm %s &> log.txt", fname);
 	system(cmd2);
 	return 0;
 }
