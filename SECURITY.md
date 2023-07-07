@@ -5,6 +5,6 @@ Please note that some versions will not be uploaded to github.
 
 | Version | Supported               |
 | ------- | ------------------------|
-| 0.0.4   | New stable ✔️           |
-| 0.0.2   | :white_check_mark: LTS* | 
+| 0.0.4   | UNSUPPORTED             |
+| 0.0.2   | UNSUPPORTED             | 
 *: Long term support
