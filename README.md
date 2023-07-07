@@ -1,4 +1,7 @@
 # EasyInstall
+
+EASYINSTALL IS NO LONGER SUPPORTED. NO MORE UPDATES ARE COMING TO IT.
+
 An application installer for Linux
 Installing applications made easier
 
